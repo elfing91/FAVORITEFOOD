@@ -1,0 +1,147 @@
+/*초기화*/
+body,h1,h2,p {
+    margin: unset;
+    padding: unset;
+}
+img{
+    vertical-align: top;
+}
+
+/*레이아웃*/
+.l_wrapper {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+:root {
+    --color-gray: #F4F4F4;
+    --color-darkgray: #D9D9D9;
+    --color-orange: #FF6600;
+}
+
+/*컨텐츠*/
+body{
+    background-color: var(--color-gray);
+
+}
+.header-layout{
+    background-color: var(--color-gray);
+
+}
+.header {
+    max-width: 960px;
+    margin: 0 auto;
+    color: var(--color-orange);
+    display: grid;
+    grid-template-columns: 200px 1fr 124px;
+
+
+}
+
+h1 {
+    width: 200px;
+    color: var(--color-orange);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "arial";
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+
+.header-icon {
+    grid-column-start: 3;
+    margin-left: auto;
+    width: 124px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content {
+    background-color: var(--color-darkgray);
+}
+
+.card-container{
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    margin-top: 30px;
+    max-width: 300px;
+border-radius: 12px;
+}
+
+.cover{
+    max-width: 300px;
+    max-height: 200px;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+h2{
+    background-color: rgb(0 0 0/0.8);
+    font-family: "arial";
+    height: 48px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF6600;
+    margin-top: -48px;
+    position: absolute;
+    padding: 10px 20px;
+    border-top-right-radius: 12px;
+    box-sizing: border-box;
+
+}
+
+p{
+    color: #666666;
+    font-size: 14px;
+    padding: 20px;
+    background-color: white;
+    
+}
+.hotp{color:#FF6600; font-weight: bold;}
+.bugp{color: #17A651;font-weight: bold;}
+.pizp{color: #0075FF;font-weight: bold;}
+
+.footer{
+    background-color: #F4F4F4;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 18px;
+}
+a{
+    color: white;
+    font-size: 12px;
+    font-family: "Noto Sans CJK KR";
+    border-radius: 48px;
+    height: 22px;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    background-color: #FF6600;
+}
+
+
+footer{
+    max-width: 960px;
+    margin-top: 30px;
+    margin-bottom: 39px;
+    
+}
+h3{
+    font-size: 12px;
+    letter-spacing: 0.24rem;
+    color: #aaa;
+}
+
